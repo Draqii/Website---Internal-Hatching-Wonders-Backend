@@ -1,0 +1,46 @@
+<svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path class="hw_svgicon__fill" d="M2.96642 12.8727C2.01123 11.9175 1.30362 10.7436 0.904981 9.45294L0.776691 9.03757C0.616691 8.51953 0.535333 7.98042 0.535333 7.43824C0.535333 6.51722 0.770056 5.61139 1.21734 4.80628L1.22978 4.78389L5.25757 8.81167L5.21701 8.86575C4.97054 9.19437 4.8141 9.58163 4.76315 9.98924L4.75723 10.0366C4.72081 10.3279 4.74497 10.6237 4.82819 10.9053C4.92772 11.242 5.10887 11.549 5.35557 11.7989L7.47979 13.9506L9.69192 15.9298C9.97067 16.1792 10.3146 16.3443 10.6836 16.4057C11.127 16.4794 11.5823 16.3996 11.9741 16.1793L12.4798 15.895L16.3687 19.7839L16.1876 19.9197C15.5804 20.3751 14.855 20.646 14.098 20.7001C13.5798 20.7371 13.0595 20.6716 12.5667 20.5073L12.0048 20.32C11.4899 20.1484 10.997 19.9168 10.5362 19.6302L9.78993 19.1659C8.85746 18.5858 7.99452 17.9008 7.21798 17.1242L2.96642 12.8727Z" fill="#FF843F"/>
+<g clip-path="url(#clip0_7010_3409)">
+<g clip-path="url(#clip1_7010_3409)">
+<rect class="hw_svgicon__stroke" x="7.16464" y="7.57089" width="7.38889" height="7.38889" rx="3.69444" stroke="#FF843F" stroke-width="1.40741"/>
+</g>
+<circle class="hw_svgicon__fill" cx="10.6832" cy="7.57089" r="0.703704" fill="#FF843F"/>
+<circle class="hw_svgicon__fill" cx="14.5533" cy="11.0894" r="0.703704" fill="#FF843F"/>
+</g>
+<g clip-path="url(#clip2_7010_3409)">
+<g clip-path="url(#clip3_7010_3409)">
+<rect class="hw_svgicon__stroke" x="7.38686" y="5.01534" width="9.72222" height="9.72222" rx="4.86111" stroke="#FF843F" stroke-width="1.85185"/>
+</g>
+<circle class="hw_svgicon__fill" cx="12.0167" cy="5.01534" r="0.925926" fill="#FF843F"/>
+<circle class="hw_svgicon__fill" cx="17.1095" cy="9.64498" r="0.925926" fill="#FF843F"/>
+</g>
+<g clip-path="url(#clip4_7010_3409)">
+<g clip-path="url(#clip5_7010_3409)">
+<rect class="hw_svgicon__stroke" x="7.44048" y="1.94658" width="12.5" height="12.5" rx="6.25" stroke="#FF843F" stroke-width="2.38095"/>
+</g>
+<circle class="hw_svgicon__fill" cx="13.3926" cy="1.94658" r="1.19048" fill="#FF843F"/>
+<circle class="hw_svgicon__fill" cx="19.9395" cy="7.89897" r="1.19048" fill="#FF843F"/>
+</g>
+<path class="hw_svgicon__fill" d="M1.92383 4.07544L2.51308 3.48618C2.947 3.05227 3.65052 3.05227 4.08443 3.48618L6.54751 5.94926C6.98142 6.38317 6.98142 7.08669 6.54751 7.52061L5.95825 8.10986L1.92383 4.07544Z" fill="#FF843F"/>
+<path class="hw_svgicon__fill" d="M13.0352 15.1866L13.6244 14.5973C14.0583 14.1634 14.7618 14.1634 15.1958 14.5973L17.6588 17.0604C18.0928 17.4943 18.0928 18.1978 17.6588 18.6318L17.0696 19.221L13.0352 15.1866Z" fill="#FF843F"/>
+<defs>
+<clipPath id="clip0_7010_3409">
+<rect class="hw_svgicon__fill" width="5.27778" height="4.92593" fill="white" transform="translate(9.97949 6.86719)"/>
+</clipPath>
+<clipPath id="clip1_7010_3409">
+<rect class="hw_svgicon__fill" width="4.57407" height="4.22222" fill="white" transform="translate(10.6836 6.86719)"/>
+</clipPath>
+<clipPath id="clip2_7010_3409">
+<rect class="hw_svgicon__fill" width="6.94444" height="6.48148" fill="white" transform="translate(11.0908 4.08942)"/>
+</clipPath>
+<clipPath id="clip3_7010_3409">
+<rect class="hw_svgicon__fill" width="6.01852" height="5.55556" fill="white" transform="translate(12.0166 4.08942)"/>
+</clipPath>
+<clipPath id="clip4_7010_3409">
+<rect class="hw_svgicon__fill" width="8.92857" height="8.33333" fill="white" transform="translate(12.2021 0.756104)"/>
+</clipPath>
+<clipPath id="clip5_7010_3409">
+<rect class="hw_svgicon__fill" width="7.73809" height="7.14286" fill="white" transform="translate(13.3926 0.756104)"/>
+</clipPath>
+</defs>
+</svg>
