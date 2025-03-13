@@ -1,4 +1,3 @@
-var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
@@ -7,9 +6,7 @@ var cors = require('cors')
 var bodyParser = require('body-parser')
 
 var indexRouter = require('./routes/index');
-var clockingsRouter = require('./routes/clockings');
-var projectsRouter = require('./routes/projects');
-var usersRouter = require('./routes/users');
+var newsletterRouter = require('./routes/newsletter');
 
 var app = express();
 
@@ -25,10 +22,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(cors({origin: '*'}));
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use('/projects', projectsRouter);
-app.use('/clockings', clockingsRouter)
-
+app.use('/newsletter', newsletterRouter);
 
 // error handler
 app.use(function(err, req, res, next) {
