@@ -7,6 +7,8 @@ var bodyParser = require('body-parser')
 
 var indexRouter = require('./routes/index');
 var newsletterRouter = require('./routes/newsletter');
+var employeesRouter = require('./routes/employees');
+var clockingRouter = require('./routes/clockings');
 
 var app = express();
 
@@ -23,6 +25,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors({origin: '*'}));
 app.use('/', indexRouter);
 app.use('/newsletter', newsletterRouter);
+app.use('/employees', employeesRouter);
+app.use('/clockings', clockingRouter);
 
 // error handler
 app.use(function(err, req, res, next) {
