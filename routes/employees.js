@@ -36,10 +36,12 @@ router.post('/login', async function (req, res, next) {
         const payload = req.body.payload
         await mongoose.connect(mongo.connection_string);
         const Employees = mongoose.model('Employee', schemas.employeeSchema);
-        const employees = await Employees.findOne({ 
+        const employees = await Employees.find({ 
             email: payload.email, 
             password: payload.password 
         })
+        console.log(payload)
+        console.log(employees)
         res.json({ status: "success", 
             payload: {
                 id: employees.length > 0 ? employees[0].id : "none"

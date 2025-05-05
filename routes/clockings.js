@@ -4,13 +4,13 @@ var mongo = require('../modules/mongo.js')
 var schemas = require('../modules/schemas.js')
 var router = express.Router();
 
+const Clockings = mongoose.model('Clocking', schemas.clockingSchema);
 
 router.post('/add', async function (req, res, next) {
     try {
         const payload = req.body.payload
         console.log(payload)
         await mongoose.connect(mongo.connection_string);
-        const Clockings = mongoose.model('Clocking', schemas.clockingSchema);
         const timestamp = new Date().toUTCString()
         console.log(timestamp)
         const direction = ""
@@ -26,6 +26,30 @@ router.post('/add', async function (req, res, next) {
         console.log(err)
         res.json({
             status: "failure"
+        })
+    }
+});
+
+router.post('/get', async function (req, res, next) {
+    try {
+        const payload = req.body.payload
+        console.log(payload)
+        await mongoose.connect(mongo.connection_string);
+        const kitten = await Clockings.find({employee_id: payload.employee_id})
+        res.json({
+            status: "success",
+            payload: {
+                clockings: kitten
+            }
+        });
+    }
+    catch (err) {
+        console.log(err)
+        res.json({
+            status: "failure",
+            payload: {
+                clockings: []
+            }
         })
     }
 });
