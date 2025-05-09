@@ -9,6 +9,7 @@ var indexRouter = require('./routes/index');
 var newsletterRouter = require('./routes/newsletter');
 var employeesRouter = require('./routes/employees');
 var clockingRouter = require('./routes/clockings');
+var projectsRouter = require('./routes/projects');
 
 var app = express();
 
@@ -27,6 +28,7 @@ app.use('/', indexRouter);
 app.use('/newsletter', newsletterRouter);
 app.use('/employees', employeesRouter);
 app.use('/clockings', clockingRouter);
+app.use('/projects', projectsRouter);
 
 // error handler
 app.use(function(err, req, res, next) {

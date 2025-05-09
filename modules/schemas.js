@@ -1,7 +1,6 @@
 var mongoose = require('mongoose');
 
 const clockingSchema = new mongoose.Schema({
-    email: String,
     timestamp: String,
     direction: String,
     employee_id: String
@@ -20,8 +19,14 @@ const newsletterSubscriberSchema = new mongoose.Schema({
     email: String
 });
 
+const projectSchema = new mongoose.Schema({
+    name: String,
+    id: String
+})
+
 module.exports = {
     clockingSchema: clockingSchema,
     employeeSchema: employeeSchema,
-    newsletterSubscriberSchema: newsletterSubscriberSchema
+    newsletterSubscriberSchema: newsletterSubscriberSchema,
+    projectSchema: projectSchema
 }
